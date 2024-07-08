@@ -1,0 +1,86 @@
+/* 重置一些默认样式以提升一致性 */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.all {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* 头部样式 */
+.title {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.title_1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* 导航样式 */
+.first ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #34495e;
+    padding: 10px 0;
+}
+
+.first li {
+    display: inline;
+}
+
+.first a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 内容样式 */
+.fis,
+.sec,
+.three {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.fis img,
+.sec img,
+.three img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* 底部样式 */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+}

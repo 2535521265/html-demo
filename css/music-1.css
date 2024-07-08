@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 整体布局样式 */
+.all {
+    background: url(../img/back1.png) no-repeat;
+    width: auto;
+    height: 1000px;
+    position: relative;
+}
+
+/* 文字样式 */
+.music {
+    position: relative;
+    width: 500px;
+    height: 850px;
+    margin: 0 auto;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+/* 返回超链接样式 */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* 居中音频播放器 */
+audio {
+    display: block;
+    margin: 0 auto;
+}

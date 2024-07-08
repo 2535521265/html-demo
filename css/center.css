@@ -1,0 +1,147 @@
+/* 整体布局 */
+.all {
+    width: 1200px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* nav部分 */
+.nav {
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+h2 {
+    background-color: rgb(199, 210, 240);
+    width: 100%;
+    height: auto;
+    color: rgb(116, 85, 85);
+}
+
+.back {
+    width: 100%;
+    height: 450px;
+    background-color: #C6F2F8;
+}
+
+.jiesao {
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    font-family: 微软雅黑;
+    position: absolute;
+    top: 20px;
+}
+
+.nei {
+    position: absolute;
+    right: 10px;
+}
+
+/* 插入内容 */
+.nav_2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 38px;
+    right: 154px;
+    width: auto;
+}
+
+/* content部分 */
+.content {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 100%;
+}
+
+/* h3的标题设置 */
+h3 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.word {
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.said {
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    top: 92px;
+    right: 10px;
+    font-size: 25px;
+    font-family: 华文行楷;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 128px;
+    top: 69px;
+}
+
+.btn_1 {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 150%;
+}
+
+.img_2 li {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 145px;
+}
+
+.fin {
+    width: 100%;
+    height: 401px;
+    position: absolute;
+    top: 200%;
+    background-color: #C6F2F8;
+}
+
+.one {
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    font-family: 华文行楷;
+    position: absolute;
+    top: 70px;
+}
+
+.two {
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    font-family: 华文行楷;
+    position: absolute;
+    top: 160px;
+}
+
+.thr {
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    font-family: 华文行楷;
+    position: absolute;
+    top: 260px;
+}
+
+/* 插画设置 */
+.big {
+    position: absolute;
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,90 @@
+/* 重置一些默认样式 */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.all {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fis, .sec, .thr, .fou {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0066cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    color: #777;
+    font-size: 14px;
+}
+
+/* 响应式样式 */
+@media only screen and (max-width: 600px) {
+    .all {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+}

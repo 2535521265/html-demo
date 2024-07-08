@@ -1,0 +1,628 @@
+ /*整体样式 */
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ ul {
+     list-style-type: none;
+ }
+
+ /* 整体布局 */
+ .all {
+     width: 1200px;
+     height: 1910px;
+     position: relative;
+     margin: 0 auto;
+     
+ }
+
+ /* header设置 */
+ .head {
+     line-height: 40px;
+     width: 360px;
+     height: 40px;
+     margin-left: 53px;
+ }
+
+ .title {
+     background-color: #666;
+     width: 100%;
+     height: 50px;
+ }
+
+ /* 搜索部分样式 */
+ .bx {
+     width: 1200px;
+     height: auto;
+     position: absolute;
+     left: 105px;
+     z-index: 4;
+ }
+
+ .container {
+     height: 30px;
+     width: 180px;
+     margin: 0 auto 0 auto;
+     position: absolute;
+     left: 45%;
+     top: 7px;
+ }
+
+ .parent {
+     position: relative;
+ }
+
+ .search {
+     width: 155px;
+     height: 24px;
+     border-radius: 18px;
+     outline: none;
+     border: 1px solid blanchedalmond;
+     padding-left: 20px;
+     position: absolute;
+ }
+
+ /* 标题样式 */
+ .tit {
+     display: block;
+     float: left;
+     width: 80px;
+     height: 40px;
+     text-decoration: none;
+     color: blanchedalmond;
+     text-align: center;
+     line-height: 40px;
+ }
+
+ .tit:hover {
+     background-color: red;
+ }
+
+ .bd {
+     width: 90px;
+     height: 40px;
+     position: absolute;
+     right: 400px;
+     top: 0px;
+ }
+
+ /* 登录样式 */
+ .dl {
+     display: block;
+     width: 40px;
+     height: 40px;
+     position: absolute;
+     right: -26%;
+     margin-top: 2px;
+     text-decoration: none;
+     color: blanchedalmond;
+     line-height: 40px;
+     text-align: center;
+ }
+
+ .dl:hover {
+     background-color: red;
+ }
+
+ /* 注册样式 */
+ .zc {
+     display: block;
+     width: 40px;
+     height: 40px;
+     position: absolute;
+     right: -91px;
+     margin-top: 2px;
+     text-decoration: none;
+     color: blanchedalmond;
+     line-height: 40px;
+     text-align: center;
+ }
+
+ .zc:hover {
+     background-color: red;
+ }
+
+ /* 个人简介样式 */
+ .man {
+     display: block;
+     width: 80px;
+     height: 40px;
+     position: absolute;
+     margin-top: 2px;
+     right: -186px;
+     color: blanchedalmond;
+     text-decoration: none;
+     line-height: 40px;
+     text-align: center;
+ }
+
+ .man:hover {
+     background-color: red;
+ }
+
+ /* nav样式 */
+ .nav {
+     position: absolute;
+     top: 40px;
+     width: 1200px;
+     height: 374px;
+     background-color: rgb(112, 47, 3);
+ }
+
+ /* banner样式 */
+ .nav .banner {
+     width: 1200px;
+     height: 300px;
+     position: absolute;
+     left: 160px;
+ }
+
+ .last {
+     display: block;
+     text-decoration: none;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     top: 50%;
+     background-color: white;
+     font-size: 28px;
+     line-height: 50px;
+     text-align: center;
+     right: 302px;
+ }
+
+ .next {
+     display: block;
+     text-decoration: none;
+     width: 50px;
+     height: 50px;
+     position: absolute;
+     background-color: white;
+     font-size: 28px;
+     line-height: 50px;
+     text-align: center;
+     left: 1px;
+     top: 50%;
+ }
+
+ /* 圆点图样式 */
+ .cir {
+     width: 80px;
+     height: 20px;
+     float: left;
+     position: absolute;
+     bottom: -62px;
+     right: 374px;
+ }
+
+ .one,
+ .two,
+ .three,
+ .four {
+     display: block;
+     width: 10px;
+     height: 10px;
+     border: 1px solid;
+     float: left;
+     margin-left: 5px;
+     border-radius: 50%;
+     background-color: #fff;
+ }
+
+ .one:hover {
+     background-color: red;
+ }
+
+ .two:hover {
+     background-color: red;
+ }
+
+ .three:hover {
+     background-color: red;
+ }
+
+ .four:hover {
+     background-color: red;
+ }
+
+ /* content部分 */
+ .content_left {
+     width: 640px;
+     height: 520px;
+     position: absolute;
+     left: 133px;
+     top: 430px;
+     border-bottom: 1px solid #666;
+     border-right: 1px solid #000;
+     border-left: 1px solid #000;
+     background-color: white;
+ }
+
+ /* 所有h2的标题样式 */
+ h2 {
+     width: 100%;
+     position: absolute;
+     font-size: 20px;
+     border-bottom: 1px solid red;
+ }
+
+ .mv {
+     display: block;
+     position: absolute;
+     top: 10px;
+     right: 5px;
+     text-decoration: none;
+     font-size: 10px;
+     color: slategrey;
+ }
+
+ /* content中左边样式 */
+ .song_01,
+ .song_02 {
+     width: 550px;
+     height: 250px;
+     position: absolute;
+     left: 42px;
+     top: 60px;
+ }
+
+ .video .img_02:hover {
+     transform: scale(1.2);
+ }
+
+ .video .img_03:hover {
+     transform: scale(1.2);
+ }
+
+ .video .img_04:hover {
+     transform: scale(1.2);
+ }
+
+ .song_02 {
+     position: absolute;
+     top: 52%;
+ }
+
+ .img_01 {
+     width: 179px;
+     height: 240px;
+     margin-left: 2px;
+     float: left;
+ }
+
+ .img_01:hover {
+     color: thistle;
+ }
+
+ .img_02 {
+     position: absolute;
+     display: block;
+     width: 100px;
+     height: auto;
+     margin-bottom: 10px;
+     top: 50px;
+     left: 47px;
+ }
+
+ .img_03 {
+     display: block;
+     width: 100px;
+     height: auto;
+     position: absolute;
+     margin-top: 10px;
+     top: 200px;
+     left: 38px;
+ }
+
+ .img_04 {
+     display: block;
+     width: 100px;
+     height: auto;
+     position: absolute;
+     margin-top: 10px;
+     left: 38px;
+     bottom: 50px;
+ }
+
+ /* content中右边样式 */
+ .content_right {
+     width: 280px;
+     height: 520px;
+     border: 1px solid #666;
+     position: absolute;
+     right: 145px;
+     top: 414px;
+     background-color: white;
+ }
+
+ .word {
+     display: block;
+     position: absolute;
+     bottom: -20px;
+     /* 调整文字与底部的距离 */
+     left: 0;
+     width: 100%;
+     text-align: center;
+     /* 让文字居中对齐 */
+ }
+
+ /* 歌单整体设置 */
+ .gd {
+     width: 920px;
+     height: 300px;
+     position: absolute;
+     top: 936px;
+     left: 132px;
+     border: 1px solid #666;
+     background-color: white;
+ }
+
+ /* h2{left: 10px;
+    border-bottom: 1px solid red;} */
+ .img_05 :hover {
+     transform: scale(1.2);
+ }
+
+ .img_07 :hover {
+     transform: scale(1.2);
+ }
+
+ .img_09 :hover {
+     transform: scale(1.2);
+ }
+
+ .img_10 :hover {
+     transform: scale(1.2);
+ }
+
+ .img_08 :hover {
+     transform: scale(1.2);
+ }
+
+ .img_05,
+ .img_07,
+ .img_08,
+ .img_09,
+ .img_10 {
+     display: block;
+     width: 140px;
+     height: 173px;
+     top: 17px;
+     left: 15px;
+     margin: 10px;
+     float: left;
+ }
+
+ .po {
+     width: 800px;
+     height: 200px;
+     position: absolute;
+     left: 74px;
+     top: 53px;
+ }
+
+ .fin {
+     width: 920px;
+     height: 340px;
+     position: absolute;
+     left: 132px;
+     top: 1234px;
+     border: 1px solid #666;
+     background-color: white;
+ }
+
+ .fis {
+     width: 200px;
+     height: auto;
+     position: absolute;
+     left: 50px;
+     top: 50px;
+     border-right: 1px solid #000;
+ }
+
+ .sin_01 {
+     display: block;
+     text-decoration: none;
+     padding: 10px;
+     color: #000;
+ }
+
+ .sec {
+     width: 200px;
+     height: auto;
+     position: absolute;
+     right: 300px;
+     top: 50px;
+     border-right: 1px solid #000;
+ }
+
+ .sin_01:hover {
+     text-decoration: underline;
+     color: blue;
+ }
+
+ .img_06 {
+     position: absolute;
+     right: 11px;
+     top: 90px;
+ }
+
+ .watching {
+     width: 920px;
+     height: 430px;
+     position: absolute;
+     position: relative;
+     top: 1574px;
+     left: 132px;
+     background-color: white;
+     border: 1px solid;
+ }
+
+ .NO_01 {
+     width: 250px;
+     height: 320px;
+     position: absolute;
+     top: 50px;
+     left: 20px;
+     border: 1px solid #999;
+ }
+
+ h1 {
+     position: absolute;
+     right: 42px;
+     top: 10px;
+     font-size: 20px;
+ }
+
+ .img_1 {
+     position: relative;
+     left: 32px;
+     top: 1px;
+ }
+
+ .bs {
+     display: block;
+     padding: 2px;
+     margin: 5px;
+     border: 1px solid #666;
+ }
+
+ .bs:hover {
+     transform: scale(1.1);
+     background-color: #C6F2F8;
+ }
+
+ .NO_02 {
+     width: 250px;
+     height: 320px;
+     position: absolute;
+     top: 50px;
+     left: 332px;
+     border: 1px solid #999;
+ }
+
+ .NO_03 {
+     width: 250px;
+     height: 320px;
+     position: absolute;
+     top: 50px;
+     right: 20px;
+     border: 1px solid #999;
+ }
+
+ /* footer样式 */
+ footer {
+     position: relative;
+     padding: 10px;
+     /* background-color: rgba(102, 190, 245, 0.7); */
+     top: 1575px;
+     background-color: white;
+     height: 200px;
+     left: 45px;
+ }
+
+ .copy {
+     left: 92px;
+     position: absolute;
+     float: left;
+     width: 520px;
+     padding-top: 15px;
+     line-height: 24px;
+ }
+
+ p {
+     display: block;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+ }
+
+ .s-fc4,
+ a.s-fc4:hover {
+     color: #666;
+ }
+
+ .copy .line {
+     margin: 0 8px 0 10px;
+     color: #c2c2c2;
+ }
+
+ a {
+     text-decoration: none;
+     color: #666;
+     cursor: pointer;
+ }
+
+ .copy .sep {
+     margin-right: 14px;
+ }
+
+ .s-fc3,
+ a.s-fc3:hover {
+     color: #666;
+ }
+
+ body,
+ textarea,
+ select,
+ input,
+ button {
+     font-size: 12px;
+     color: #333;
+     font-family: Arial, Helvetica, sans-serif;
+     -webkit-text-size-adjust: none;
+ }
+
+ .s-fc3,
+ a.s-fc3:hover {
+     color: #666;
+ }
+
+ .right s-fc3 .sep span {
+     position: absolute;
+     width: auto;
+     height: auto;
+     right: 20px;
+ }
+
+ .right_01 {
+     position: absolute;
+     right: 0;
+     top: 8px;
+     width: 500px;
+     height: 135px;
+     border-left: 1px solid #666;
+     margin: 10px;
+     padding: 16px;
+ }
+
+ .about {
+     position: relative;
+     left: 40%;
+     width: 600px;
+     /* padding: 1%; */
+ }
+
+ .footer .f_left {
+     display: inline-block;
+     padding-right: 20px;
+     border-right: 1px solid #fff;
+     font-size: 12px;
+ }
+
+ .f_right {
+     display: inline-block;
+     padding-left: 20px;
+     font-size: 12px;
+ }
+
+ .footer_li {
+     margin: 13px;
+     float: left;
+     height: 17px;
+ }
+
+ .footer a {
+     color: #fff;
+ }
